@@ -179,3 +179,7 @@ if st.button("Start Research", disabled=not (openai_api_key and firecrawl_api_ke
             
         except Exception as e:
             st.error(f"An error occurred: {str(e)}")
+
+# Footer
+st.markdown("---")
+st.markdown("Built with ❤️ by Tactara.ai")
