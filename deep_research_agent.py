@@ -19,3 +19,8 @@ if "openai_api_key" not in st.session_state:
 if "firecrawl_api_key" not in st.session_state:
     st.session_state.firecrawl_api_key = ""
 
+# Initialize session state for API keys if not exists
+if "openai_api_key" not in st.session_state:
+    st.session_state.openai_api_key = ""
+if "firecrawl_api_key" not in st.session_state:
+    st.session_state.firecrawl_api_key = ""
