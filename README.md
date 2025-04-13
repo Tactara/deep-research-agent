@@ -56,7 +56,7 @@ Input them via the Streamlit sidebar on first run.
 ### 4. Launch the App
 
 ```bash
-streamlit run deep_research_openai.py
+streamlit run deep_research_agent.py
 ```
 
 ---
